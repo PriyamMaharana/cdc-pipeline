@@ -1,4 +1,4 @@
-# Migration Issues Log
+# CDC Migration Issues Log
 ## Project: CDC Pipeline — Change Data Capture Incremental Load Engine
 **Tech Stack:** Python 3.11 | SQL Server 2025 Developer Edition | pyodbc | Pandas
 **Date:** April 2026
