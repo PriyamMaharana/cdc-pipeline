@@ -1,0 +1,27 @@
+2026-04-01 13:28:48,993 | INFO | Round 1: Inserting first 30 new records..
+2026-04-01 13:28:49,802 | INFO | Round 1 complete - 60 orders inserted
+
+2026-04-01 13:28:49,803 | INFO | Round 2: Update order status..
+2026-04-01 13:28:49,844 | INFO | Round 2 completed - 20 orders updated.
+
+2026-04-01 13:28:49,844 | INFO | Round 3: Cancellations +  New Orders...
+2026-04-01 13:28:49,896 | INFO | Round 3 complete - 5 cancelled, 5 new orders.
+
+2026-04-01 20:29:51,898 | INFO | Round 1: Inserting first 30 new records..
+2026-04-01 20:29:52,201 | INFO | Round 1 complete - 60 orders inserted
+
+2026-04-01 20:29:52,202 | INFO | Round 2: Update order status..
+2026-04-01 20:29:52,237 | INFO | Round 2 completed - 20 orders updated.
+
+2026-04-01 20:29:52,238 | INFO | Round 3: Cancellations +  New Orders...
+2026-04-01 20:29:52,279 | INFO | Round 3 complete - 5 cancelled, 5 new orders.
+
+2026-04-01 20:39:22,379 | INFO | Round 1: Inserting first 30 new records..
+2026-04-01 20:39:22,574 | INFO | Round 1 complete - 60 orders inserted
+
+2026-04-01 20:39:22,575 | INFO | Round 2: Update order status..
+2026-04-01 20:39:22,605 | INFO | Round 2 completed - 20 orders updated.
+
+2026-04-01 20:39:22,606 | INFO | Round 3: Cancellations +  New Orders...
+2026-04-01 20:39:22,641 | INFO | Round 3 complete - 5 cancelled, 5 new orders.
+

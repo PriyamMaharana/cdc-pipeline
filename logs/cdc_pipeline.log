@@ -1,0 +1,141 @@
+2026-04-01 20:18:49,991 | INFO | ============================================================
+2026-04-01 20:18:49,993 | INFO | CDC Pipeline Started — 2026-04-01 20:18:49.993398
+2026-04-01 20:18:50,047 | INFO | ============================================================
+2026-04-01 20:18:50,570 | INFO | First run - starting from minimum LSN
+2026-04-01 20:18:50,571 | INFO | Pipeline FAILED: 'NoneType' object has no attribute 'hex'
+2026-04-01 20:20:44,087 | INFO | ============================================================
+2026-04-01 20:20:44,088 | INFO | CDC Pipeline Started — 2026-04-01 20:20:44.088235
+2026-04-01 20:20:44,093 | INFO | ============================================================
+2026-04-01 20:20:44,438 | INFO | Pipeline FAILED: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function sys.fn_cdc_get_max_lsn has too many arguments specified. (8144) (SQLExecDirectW)')
+2026-04-01 20:22:01,511 | INFO | ============================================================
+2026-04-01 20:22:01,512 | INFO | CDC Pipeline Started — 2026-04-01 20:22:01.512259
+2026-04-01 20:22:01,517 | INFO | ============================================================
+2026-04-01 20:22:01,815 | INFO | First run - starting from minimum LSN
+2026-04-01 20:22:01,816 | INFO | Pipeline FAILED: 'NoneType' object has no attribute 'hex'
+2026-04-01 20:24:52,650 | INFO | ============================================================
+2026-04-01 20:24:52,650 | INFO | CDC Pipeline Started — 2026-04-01 20:24:52.650730
+2026-04-01 20:24:52,658 | INFO | ============================================================
+2026-04-01 20:24:52,997 | INFO | First run - starting from minimum LSN
+2026-04-01 20:24:52,997 | INFO | LSN range: 0000003000000c7b0066 -> END
+2026-04-01 20:24:55,212 | INFO | Pipeline FAILED: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]An insufficient number of arguments were supplied for the procedure or function cdc.fn_cdc_get_all_changes_ ... . (313) (SQLExecDirectW)')
+2026-04-01 20:26:30,275 | INFO | ============================================================
+2026-04-01 20:26:30,276 | INFO | CDC Pipeline Started — 2026-04-01 20:26:30.276053
+2026-04-01 20:26:30,282 | INFO | ============================================================
+2026-04-01 20:26:30,595 | INFO | First run - starting from minimum LSN
+2026-04-01 20:26:30,596 | INFO | Pipeline FAILED: 'NoneType' object has no attribute 'hex'
+2026-04-01 20:27:46,439 | INFO | ============================================================
+2026-04-01 20:27:46,440 | INFO | CDC Pipeline Started — 2026-04-01 20:27:46.440244
+2026-04-01 20:27:46,444 | INFO | ============================================================
+2026-04-01 20:27:46,731 | INFO | First run - starting from minimum LSN
+2026-04-01 20:27:46,731 | INFO | Pipeline FAILED: cannot convert 'NoneType' object to bytes
+2026-04-01 20:29:58,375 | INFO | ============================================================
+2026-04-01 20:29:58,376 | INFO | CDC Pipeline Started — 2026-04-01 20:29:58.376172
+2026-04-01 20:29:58,398 | INFO | ============================================================
+2026-04-01 20:29:58,605 | INFO | First run - starting from minimum LSN
+2026-04-01 20:29:58,606 | INFO | Pipeline FAILED: 'NoneType' object has no attribute 'hex'
+2026-04-01 20:40:08,915 | INFO | ============================================================
+2026-04-01 20:40:08,916 | INFO | CDC Pipeline Started — 2026-04-01 20:40:08.916044
+2026-04-01 20:40:08,921 | INFO | ============================================================
+2026-04-01 20:40:09,089 | INFO | First run - starting from minimum LSN
+2026-04-01 20:40:09,090 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000021bc000c
+2026-04-01 20:40:09,721 | INFO | CDC changes found: 825 raw records.
+2026-04-01 20:40:09,729 | INFO | Pipeline FAILED: "None of [Index([2, 2, 2, 2, 2, 2, 2, 2, 2, 2,\n       ...\n       2, 2, 2, 2, 2, 4, 4, 4, 4, 4],\n      dtype='int64', length=825)] are in the [columns]"
+2026-04-01 20:41:28,196 | INFO | ============================================================
+2026-04-01 20:41:28,196 | INFO | CDC Pipeline Started — 2026-04-01 20:41:28.196668
+2026-04-01 20:41:28,202 | INFO | ============================================================
+2026-04-01 20:41:28,384 | INFO | First run - starting from minimum LSN
+2026-04-01 20:41:28,385 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000021bc000c
+2026-04-01 20:41:28,852 | INFO | CDC changes found: 825 raw records.
+2026-04-01 20:41:28,853 | INFO | Pipeline FAILED: "None of [Index([2, 2, 2, 2, 2, 2, 2, 2, 2, 2,\n       ...\n       2, 2, 2, 2, 2, 4, 4, 4, 4, 4],\n      dtype='int64', length=825)] are in the [columns]"
+2026-04-01 20:46:56,561 | INFO | ============================================================
+2026-04-01 20:46:56,562 | INFO | CDC Pipeline Started — 2026-04-01 20:46:56.562573
+2026-04-01 20:46:56,570 | INFO | ============================================================
+2026-04-01 20:46:56,756 | INFO | First run - starting from minimum LSN
+2026-04-01 20:46:56,757 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000022e20003
+2026-04-01 20:46:57,292 | INFO | CDC changes found: 825 raw records.
+2026-04-01 20:46:57,302 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 20:46:57,305 | INFO | Pipeline FAILED: 'product_id'
+2026-04-01 20:47:37,621 | INFO | ============================================================
+2026-04-01 20:47:37,621 | INFO | CDC Pipeline Started — 2026-04-01 20:47:37.621431
+2026-04-01 20:47:37,625 | INFO | ============================================================
+2026-04-01 20:47:37,795 | INFO | First run - starting from minimum LSN
+2026-04-01 20:47:37,796 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000022e20003
+2026-04-01 20:47:38,379 | INFO | CDC changes found: 825 raw records.
+2026-04-01 20:47:38,381 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 20:47:38,386 | INFO | Pipeline FAILED: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'quantity'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2026-04-01 20:49:27,967 | INFO | ============================================================
+2026-04-01 20:49:27,967 | INFO | CDC Pipeline Started — 2026-04-01 20:49:27.967809
+2026-04-01 20:49:27,974 | INFO | ============================================================
+2026-04-01 20:49:28,152 | INFO | First run - starting from minimum LSN
+2026-04-01 20:49:28,152 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000023340003
+2026-04-01 20:49:28,766 | INFO | CDC changes found: 825 raw records.
+2026-04-01 20:49:28,768 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 20:49:28,775 | INFO | Pipeline FAILED: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'quantity'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2026-04-01 20:49:59,835 | INFO | ============================================================
+2026-04-01 20:49:59,835 | INFO | CDC Pipeline Started — 2026-04-01 20:49:59.835764
+2026-04-01 20:49:59,843 | INFO | ============================================================
+2026-04-01 20:50:00,014 | INFO | First run - starting from minimum LSN
+2026-04-01 20:50:00,015 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000023340003
+2026-04-01 20:50:00,537 | INFO | CDC changes found: 825 raw records.
+2026-04-01 20:50:00,540 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 20:50:00,543 | INFO | Pipeline FAILED: 'datetime.date' object cannot be interpreted as an integer
+2026-04-01 20:51:23,549 | INFO | ============================================================
+2026-04-01 20:51:23,550 | INFO | CDC Pipeline Started — 2026-04-01 20:51:23.550489
+2026-04-01 20:51:23,556 | INFO | ============================================================
+2026-04-01 20:51:23,751 | INFO | First run - starting from minimum LSN
+2026-04-01 20:51:23,752 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000023340003
+2026-04-01 20:51:24,278 | INFO | CDC changes found: 825 raw records.
+2026-04-01 20:51:24,283 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 20:51:24,286 | INFO | Pipeline FAILED: ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'quantity'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2026-04-01 20:53:01,219 | INFO | ============================================================
+2026-04-01 20:53:01,220 | INFO | CDC Pipeline Started — 2026-04-01 20:53:01.220000
+2026-04-01 20:53:01,224 | INFO | ============================================================
+2026-04-01 20:53:01,404 | INFO | First run - starting from minimum LSN
+2026-04-01 20:53:01,405 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000023340003
+2026-04-01 20:53:01,880 | INFO | CDC changes found: 825 raw records.
+2026-04-01 20:53:01,882 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 20:53:02,180 | INFO | Pipeline FAILED: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'SCD_Project.dbo.orders_warehouse', column 'cdc_operation'. Truncated value: 'UPDATE_AFT'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-04-01 20:59:54,595 | INFO | ============================================================
+2026-04-01 20:59:54,596 | INFO | CDC Pipeline Started — 2026-04-01 20:59:54.596445
+2026-04-01 20:59:54,602 | INFO | ============================================================
+2026-04-01 20:59:54,792 | INFO | First run - starting from minimum LSN
+2026-04-01 20:59:54,792 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000025b80003
+2026-04-01 20:59:55,399 | INFO | CDC changes found: 825 raw records.
+2026-04-01 20:59:55,401 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 20:59:55,785 | INFO | Pipeline FAILED: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'SCD_Project.dbo.orders_warehouse', column 'cdc_operation'. Truncated value: 'UPDATE_AFT'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-04-01 21:02:08,770 | INFO | ============================================================
+2026-04-01 21:02:08,770 | INFO | CDC Pipeline Started — 2026-04-01 21:02:08.770879
+2026-04-01 21:02:08,775 | INFO | ============================================================
+2026-04-01 21:02:08,955 | INFO | First run - starting from minimum LSN
+2026-04-01 21:02:08,956 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000025b80003
+2026-04-01 21:02:09,503 | INFO | CDC changes found: 825 raw records.
+2026-04-01 21:02:09,507 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 21:02:09,893 | INFO | Pipeline FAILED: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'SCD_Project.dbo.orders_warehouse', column 'cdc_operation'. Truncated value: 'UPDATE_AFT'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-04-01 21:04:35,691 | INFO | ============================================================
+2026-04-01 21:04:35,691 | INFO | CDC Pipeline Started — 2026-04-01 21:04:35.691448
+2026-04-01 21:04:35,696 | INFO | ============================================================
+2026-04-01 21:04:35,892 | INFO | First run - starting from minimum LSN
+2026-04-01 21:04:35,892 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000028ac0003
+2026-04-01 21:04:36,375 | INFO | CDC changes found: 825 raw records.
+2026-04-01 21:04:36,378 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 21:04:36,729 | INFO | Pipeline FAILED: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'SCD_Project.dbo.orders_warehouse', column 'cdc_operation'. Truncated value: 'UPDATE_AFT'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-04-01 21:07:02,303 | INFO | ============================================================
+2026-04-01 21:07:02,303 | INFO | CDC Pipeline Started — 2026-04-01 21:07:02.303806
+2026-04-01 21:07:02,308 | INFO | ============================================================
+2026-04-01 21:07:02,481 | INFO | First run - starting from minimum LSN
+2026-04-01 21:07:02,481 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000028ac0003
+2026-04-01 21:07:02,966 | INFO | CDC changes found: 825 raw records.
+2026-04-01 21:07:02,968 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 21:07:03,802 | INFO | Loaded 675 changes to orders_warehouse
+2026-04-01 21:07:03,805 | INFO | Pipeline FAILED: ('The SQL contains 4 parameter markers, but 3 parameters were supplied', 'HY000')
+2026-04-01 21:08:30,114 | INFO | ============================================================
+2026-04-01 21:08:30,115 | INFO | CDC Pipeline Started — 2026-04-01 21:08:30.115077
+2026-04-01 21:08:30,121 | INFO | ============================================================
+2026-04-01 21:08:30,331 | INFO | First run - starting from minimum LSN
+2026-04-01 21:08:30,331 | INFO | LSN range: 0000003000000c7b0066 -> 00000030000028ac0003
+2026-04-01 21:08:30,824 | INFO | CDC changes found: 825 raw records.
+2026-04-01 21:08:30,827 | INFO | Breakdown: INSERT=675 |UPDATE=150 |DELETE=0
+2026-04-01 21:08:31,584 | INFO | Loaded 675 changes to orders_warehouse
+2026-04-01 21:08:31,593 | INFO | Watermark updated -> LSN: 00000030000028ac0003
+2026-04-01 21:08:31,594 | INFO | Pipeline Completed - 675 rows processed.
+2026-04-01 21:08:31,595 | INFO | ============================================================
